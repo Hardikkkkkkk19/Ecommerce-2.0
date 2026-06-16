@@ -1,16 +1,75 @@
-# React + Vite
+# VasaiKart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VasaiKart is a modern React CRUD E-Commerce web application where users can browse products, add products, manage their cart, and explore product listings through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Home Page
+- Product Listing
+- Add Product Functionality
+- Shopping Cart
+- About Us Page
+- Contact Page
+- Responsive UI Design
+- React Router Navigation
+- CRUD Operations
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Router DOM
+- Context API
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page
+![Home](screenshots/Home.png)
+
+### Products Page
+![Products](screenshots/Products.png)
+
+### Add Product Page
+![Add Product](screenshots/AddProducts.png)
+
+### Cart Page
+![Cart](screenshots/Cart.png)
+
+### About Us Page
+![About](screenshots/AboutUs.png)
+
+### Contact Page
+![Contact](screenshots/Contact.png)
+
+### HP Victus Image
+![HP Victus](screenshots/hpvictus.png)
+
+### Z900 Image
+![Z900](screenshots/z900.png)
+
+### iPhone 17 Pro Max
+![iPhone 17 Pro Max](screenshots/iphone17.png)
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Developed By
+
+**Hardik Vinod Jadhav**
+
+Diploma in Computer Engineering
+
+## Project Type
+
+React CRUD E-Commerce Website
+
+## License
+
+This project is developed for educational purposes.
