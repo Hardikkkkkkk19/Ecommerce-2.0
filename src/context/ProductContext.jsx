@@ -1,6 +1,5 @@
 import { createContext, useState, useEffect } from "react";
 import { supabase } from "../supabase";
-import asusImg from "../screenshots/asustuffa15.png";
 export const ProductContext = createContext();
 
 function ProductProvider({ children }) {
@@ -12,17 +11,20 @@ function ProductProvider({ children }) {
   }, []);
 
   async function getProducts() {
-    const { data, error } = await supabase
-      .from("student")
-      .select("*");
+  const { data, error } = await supabase
+    .from("student")
+    .select("*");
 
-    if (error) {
-      console.log("Supabase Error:", error);
-      return;
-    }
+  console.log("DATA =>", data);
+  console.log("ERROR =>", error);
 
-    setProducts(data || []);
+  if (error) {
+    console.log("Supabase Error:", error);
+    return;
   }
+
+  setProducts(data || []);
+}
 
   function addToCart(product) {
     setCart((prev) => [...prev, product]);
